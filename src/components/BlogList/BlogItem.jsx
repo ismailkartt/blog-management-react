@@ -28,9 +28,7 @@ const BlogItem = ({ item, deletePost, updatePost }) => {
         <p className="text-sm text-gray-500">{item.date}</p>
       </div>
 
-      <div className="text-gray-600 leading-relaxed text-center">
-        <p>{item.content}</p>
-      </div>
+
       <div className="text-gray-600 leading-relaxed text-center">
 
         {isEditing ? (
